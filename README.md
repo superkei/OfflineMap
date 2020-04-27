@@ -22,6 +22,7 @@ e.g. /var/lib/docker/volumes/openstreetmap-data/_data
 
 ## install the map into k8s via HELM
 > kubectl create namespace map
+
 > helm install map -n map .
 
 PS: remember to install igress-nginx 
